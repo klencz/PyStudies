@@ -1,0 +1,19 @@
+property decorators
+getters
+setters
+deleters
+
+
+@property
+    def email(self):
+        return f"{self.first}.{self.last}@gmail.com"
+
+przez dodanie @property - mo¿emy odwo³ywaæ siê do metody jak do atrybutu
+
+print(emp1.email)
+
+
+setter np. @fullname.setter - @nameoftheproperty.setter
+
+@deleter np. @fullname.deleter - usuwanie elementu danej instancji plus akcja która 
+ma zostaæ wywo³ana w momencie usuwania 

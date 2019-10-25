@@ -1,0 +1,12 @@
+magic mehods
+- change some kind of built in behaviors and operations
+- always surrounded by double undescores (dunder)
+
+__init__
+
+__repr__ - representation of an object, shuld be used for logging, debugging, 
+
+visible for other developers
+__str__ - more readable representation of an user, visible for end user
+
+__repr__ - string which lets recreate this object, 
